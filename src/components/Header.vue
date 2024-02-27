@@ -5,7 +5,9 @@
 <script>
 export default {
   name: "Header",
-  props: ["title"],
+  props: {
+    title: String,
+  },
 };
 </script>
 
