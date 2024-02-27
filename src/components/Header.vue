@@ -6,7 +6,10 @@
 export default {
   name: "Header",
   props: {
-    title: String,
+    title: {
+      type: String,
+      default: "Task Tracker",
+    },
   },
 };
 </script>
