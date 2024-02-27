@@ -1,5 +1,5 @@
 <template>
-  <div class="container"><Header>Task Tracker</Header></div>
+  <div class="container"><Header title="Task Tracker"></Header></div>
 </template>
 
 <script>
