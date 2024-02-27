@@ -1,15 +1,20 @@
 <template>
-  <h1>{{ title }}</h1>
+  <header>
+    <h1>{{ title }}</h1>
+    <Button text="Add Task" color="green"></Button>
+  </header>
 </template>
 
 <script>
+import Button from "./Button";
 export default {
   name: "Header",
   props: {
-    title: {
-      type: String,
-      default: "Task Tracker",
-    },
+    title: String,
+  },
+  //register as a component
+  components: {
+    Button,
   },
 };
 </script>
